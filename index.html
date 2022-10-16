@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be Pro | WorkShop Educaition</title>
+    <!-- link for SEO -->
+    <link rel="shortcut icon" href="asset/img/logo.png" type="image/x-icon">
+    <!-- css links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="asset/css/main.css">
+    <link rel="stylesheet" href="asset/css/responsive.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav-me">
+                <a href="" class="logo">
+                    <img src="asset/img/logo.png" class="logo-nav" alt="">
+                </a>
+                <div class="input-search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="search" name="" placeholder="البحث في الدورات" id="">
+                </div>
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn">
+                    <div class="mobile-view">
+                        <button class="btn-mobile-svg" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                            <svg width="30px" height="30px" viewBox="0 0 15 15" fill="#fff"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M1.5 3C1.22386 3 1 3.22386 1 3.5C1 3.77614 1.22386 4 1.5 4H13.5C13.7761 4 14 3.77614 14 3.5C14 3.22386 13.7761 3 13.5 3H1.5ZM1 7.5C1 7.22386 1.22386 7 1.5 7H13.5C13.7761 7 14 7.22386 14 7.5C14 7.77614 13.7761 8 13.5 8H1.5C1.22386 8 1 7.77614 1 7.5ZM1 11.5C1 11.2239 1.22386 11 1.5 11H13.5C13.7761 11 14 11.2239 14 11.5C14 11.7761 13.7761 12 13.5 12H1.5C1.22386 12 1 11.7761 1 11.5Z"
+                                    fill="#fff" />
+                            </svg>
+                        </button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                            aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                                <!-- <h5 id="offcanvasRightLabel"><a href="" class="logo"><img src="asset/img/logo.png"
+                                            class="logo-nav-mobile" alt=""></a></h5> -->
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="mobile-ul">
+                                    <li class=" submenu-hover">
+                                        <a class="a-nav " href="#work"> البرامج التدريبه <i
+                                                class="fa-solid fa-angle-down"></i>
+                                        </a>
+                                        <ul class="sub-menu-ul">
+                                            <div class="submenu">
+                                                <li>
+                                                    <a href="">
+                                                        <img src="asset/img/icon/graphicdesign.svg" alt="" /> تصميم
+                                                        جرافيكي </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        <img src="asset/img/icon/uiux.svg" alt="" /> UI / UX </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        <img src="asset/img/icon/mont.svg" alt="" /> مونتاج </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        <img src="asset/img/icon/3d.svg" alt="" /> ثري دي </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        <img src="asset/img/icon/social.svg" alt="" /> سوشل ميديا </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        <img src="asset/img/icon/motiongraphic.svg" alt="" /> موشن
+                                                        جرافيك </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        <img src="asset/img/icon/creative.svg" alt="" /> المحتوى
+                                                        الإبداعي </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        <img src="asset/img/icon/drow.svg" alt="" /> الرسم </a>
+                                                </li>
+                                            </div>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#about">الدورات</a>
+                                    </li>
+                                    <li>
+                                        <a href="#careers">الباقات</a>
+                                    </li>
+                                    <li>
+                                        <a href="#contact" class="btn-signin">تسجيل الدخول</a>
+                                    </li>
+                                    <li>
+                                        <a href="#careers" class="btn-signup">مستخدم جديد </a>
+                                    </li>
+                                </ul>
+                                <!-- <ul class="footer-socials"><li><a href=""><i class="fa-brands fa-square-facebook"></i></a></li><li><a href=""><i class="fa-brands fa-instagram"></i></a></li><li><a href=""><i class="fa-brands fa-square-twitter"></i></a></li><li><a href=""><i class="fa-brands fa-youtube"></i></a></li></ul> -->
+                                <ul class="footer-app">
+                                    <li>
+                                        <a href="">
+                                            <img src="asset/img/icon/google.png" class="app-img-size" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="asset/img/icon/apple.png" class="app-img-size" alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </label>
+                <ul class="menu app-nav">
+                    <li class="li-nav submenu-hover">
+                        <a class="a-nav " href="#work"> البرامج التدريبه <i class="fa-solid fa-angle-down"></i>
+                        </a>
+                        <ul class="sub-menu-ul">
+                            <i class="fa-solid fa-caret-up"></i>
+                            <div class="submenu">
+                                <li>
+                                    <a href="">
+                                        <img src="asset/img/icon/graphicdesign.svg" alt="" /> تصميم جرافيكي </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="asset/img/icon/uiux.svg" alt="" /> UI / UX </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="asset/img/icon/mont.svg" alt="" /> مونتاج </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="asset/img/icon/3d.svg" alt="" /> ثري دي </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="asset/img/icon/social.svg" alt="" /> سوشل ميديا </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="asset/img/icon/motiongraphic.svg" alt="" /> موشن جرافيك </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="asset/img/icon/creative.svg" alt="" /> المحتوى الإبداعي </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="asset/img/icon/drow.svg" alt="" /> الرسم </a>
+                                </li>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="li-nav">
+                        <a class="a-nav" href="#about">الدورات</a>
+                    </li>
+                    <li class="li-nav">
+                        <a class="a-nav" href="#careers">الباقات</a>
+                    </li>
+                    <li class="li-nav">
+                        <a class="a-nav" href="#contact">تسجيل الدخول</a>
+                    </li>
+                    <li class="li-nav">
+                        <a class="a-nav" href="#careers">مستخدم جديد </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="course-landing-details">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="paragraph-landing-title">
+                        <div class="land-title">
+                            <h1>تفاصيل الخدمه</h1>
+                            <p>الأول كل ملفوظ مفهوم المعنى من الكتاب والسنة سواء كان ظاهرا أو نصا أو مفسرا حقيقة أو مجازا عاما أو خاصا اعتبارا منهم للغالب، لأن عامة ما ورد من صاحب الشرع نصوص، وهذا المعنى هو المراد بالنصوص في قولهم عبارة النص وإشارة النص ودلالة النص واقتضاء النص. فقوله من الكتاب والسنة بيان لقوله ملفوظ</p>
+                              </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="course-landing-details">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="paragraph-landing">
+                        <div class="land-title">
+                            <h1>تفاصيل الخدمه</h1>
+                            <p>الأول كل ملفوظ مفهوم المعنى من الكتاب والسنة سواء كان ظاهرا أو نصا أو مفسرا حقيقة أو مجازا عاما أو خاصا اعتبارا منهم للغالب، لأن عامة ما ورد من صاحب الشرع نصوص، وهذا المعنى هو المراد بالنصوص في قولهم عبارة النص وإشارة النص ودلالة النص واقتضاء النص. فقوله من الكتاب والسنة بيان لقوله ملفوظ</p>
+                                <p>الأول كل ملفوظ مفهوم المعنى من الكتاب والسنة سواء كان ظاهرا أو نصا أو مفسرا حقيقة أو مجازا عاما أو خاصا اعتبارا منهم للغالب، لأن عامة ما ورد من صاحب الشرع نصوص، وهذا المعنى هو المراد بالنصوص في قولهم عبارة النص وإشارة النص ودلالة النص واقتضاء النص. فقوله من الكتاب والسنة بيان لقوله ملفوظ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <video controls class="video-course">
+                        <source src="asset/img/a.mp4" type=" video/mp4">
+                    </video>
+                    <div class="video-land-center"> 
+                        <h3>100$</h3>
+                        <a href="" class="subscribe-btn-land">اشترك الان</a>
+                     </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="course-landing-details">
+        <div class="container">
+            <div class="row">
+                <div class="title-head-land">
+                    <h1>تفاصيل الدورات</h1>
+                </div> 
+            </div>
+            <div class="row">
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="box-course">
+                        <img src="asset/img/course/pic1.jpg" alt="" class="img-land">
+                        <h3 class="title-bx">اسم الكورس</h3>
+                        <p>الأول كل ملفوظ مفهوم المعنى من الكتاب والسنة سواء كان ظاهرا أو نصا أو مفسرا حقيقة أو مجازا عاما أو خاصا اعتبارا منهم للغالب، لأن عامة ما ورد من صاحب الشرع نصوص، وهذا المعنى هو المراد بالنصوص في قولهم عبارة النص وإشارة النص ودلالة النص واقتضاء النص. فقوله من الكتاب والسنة بيان لقوله ملفوظ</p>
+                        <a href="" class="subscribe-btn-land">اشترك الان</a>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="box-course">
+                        <img src="asset/img/course/pic10.jpg" alt="" class="img-land">
+                        <h3 class="title-bx">اسم الكورس</h3>
+                        <p>الأول كل ملفوظ مفهوم المعنى من الكتاب والسنة سواء كان ظاهرا أو نصا أو مفسرا حقيقة أو مجازا عاما أو خاصا اعتبارا منهم للغالب، لأن عامة ما ورد من صاحب الشرع نصوص، وهذا المعنى هو المراد بالنصوص في قولهم عبارة النص وإشارة النص ودلالة النص واقتضاء النص. فقوله من الكتاب والسنة بيان لقوله ملفوظ</p>
+                        <a href="" class="subscribe-btn-land">اشترك الان</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="box-course">
+                        <img src="asset/img/course/pic13.jpg" alt="" class="img-land">
+                        <h3 class="title-bx">اسم الكورس</h3>
+                        <p>الأول كل ملفوظ مفهوم المعنى من الكتاب والسنة سواء كان ظاهرا أو نصا أو مفسرا حقيقة أو مجازا عاما أو خاصا اعتبارا منهم للغالب، لأن عامة ما ورد من صاحب الشرع نصوص، وهذا المعنى هو المراد بالنصوص في قولهم عبارة النص وإشارة النص ودلالة النص واقتضاء النص. فقوله من الكتاب والسنة بيان لقوله ملفوظ</p>
+                        <a href="" class="subscribe-btn-land">اشترك الان</a>
+
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="box-course">
+                        <img src="asset/img/course/pic4.jpg" alt="" class="img-land">
+                        <h3 class="title-bx">اسم الكورس</h3>
+                        <p>الأول كل ملفوظ مفهوم المعنى من الكتاب والسنة سواء كان ظاهرا أو نصا أو مفسرا حقيقة أو مجازا عاما أو خاصا اعتبارا منهم للغالب، لأن عامة ما ورد من صاحب الشرع نصوص، وهذا المعنى هو المراد بالنصوص في قولهم عبارة النص وإشارة النص ودلالة النص واقتضاء النص. فقوله من الكتاب والسنة بيان لقوله ملفوظ</p>
+                        <a href="" class="subscribe-btn-land">اشترك الان</a>
+
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="box-course">
+                        <img src="asset/img/course/pic5.jpg" alt="" class="img-land">
+                        <h3 class="title-bx">اسم الكورس</h3>
+                        <p>الأول كل ملفوظ مفهوم المعنى من الكتاب والسنة سواء كان ظاهرا أو نصا أو مفسرا حقيقة أو مجازا عاما أو خاصا اعتبارا منهم للغالب، لأن عامة ما ورد من صاحب الشرع نصوص، وهذا المعنى هو المراد بالنصوص في قولهم عبارة النص وإشارة النص ودلالة النص واقتضاء النص. فقوله من الكتاب والسنة بيان لقوله ملفوظ</p>
+                        <a href="" class="subscribe-btn-land">اشترك الان</a>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="box-course">
+                        <img src="asset/img/course/pic6.jpg" alt="" class="img-land">
+                        <h3 class="title-bx">اسم الكورس</h3>
+                        <p>الأول كل ملفوظ مفهوم المعنى من الكتاب والسنة سواء كان ظاهرا أو نصا أو مفسرا حقيقة أو مجازا عاما أو خاصا اعتبارا منهم للغالب، لأن عامة ما ورد من صاحب الشرع نصوص، وهذا المعنى هو المراد بالنصوص في قولهم عبارة النص وإشارة النص ودلالة النص واقتضاء النص. فقوله من الكتاب والسنة بيان لقوله ملفوظ</p>
+                        <a href="" class="subscribe-btn-land">اشترك الان</a>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="course-landing-details">
+        <div class="container">
+            <div class="row">
+                <div class="title-head-land">
+                    <h1>اتطلع علئ المزيد</h1>
+                </div> 
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="asset/img/course/pic11.jpg" alt="Paris" style="">
+                            </div>
+                            <div class="flip-box-back">
+                                <h2>اسم الكورس</h2>
+                                <p>الأول كل ملفوظ مفهوم المعنى من الكتاب والسنة سواء كان ظاهرا أو نصا أو مفسرا حقيقة أو مجازا عاما أو خاصا اعتبارا منهم للغالب، لأن عامة ما ورد من صاحب الشرع نصوص، وهذا المعنى هو المراد بالنصوص في قولهم عبارة النص وإشارة النص ودلالة النص واقتضاء النص. فقوله من الكتاب والسنة بيان لقوله ملفوظ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="asset/img/course/pic8.jpg" alt="Paris" style="">
+                            </div>
+                            <div class="flip-box-back">
+                                <h2>اسم الكورس</h2>
+                                <p>الأول كل ملفوظ مفهوم المعنى من الكتاب والسنة سواء كان ظاهرا أو نصا أو مفسرا حقيقة أو مجازا عاما أو خاصا اعتبارا منهم للغالب، لأن عامة ما ورد من صاحب الشرع نصوص، وهذا المعنى هو المراد بالنصوص في قولهم عبارة النص وإشارة النص ودلالة النص واقتضاء النص. فقوله من الكتاب والسنة بيان لقوله ملفوظ</p>
+                           
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="asset/img/course/pic9.jpg" alt="Paris" style="">
+                            </div>
+                            <div class="flip-box-back ">
+                                <h2>اسم الكورس</h2>
+                                <p>الأول كل ملفوظ مفهوم المعنى من الكتاب والسنة سواء كان ظاهرا أو نصا أو مفسرا حقيقة أو مجازا عاما أو خاصا اعتبارا منهم للغالب، لأن عامة ما ورد من صاحب الشرع نصوص، وهذا المعنى هو المراد بالنصوص في قولهم عبارة النص وإشارة النص ودلالة النص واقتضاء النص. فقوله من الكتاب والسنة بيان لقوله ملفوظ</p>
+                           
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="faq">
+        <div class="container">
+            <div class="row">
+                <div class="title-head-land">
+                    <h1>  الاسئله الشائعه</h1>
+                </div> 
+            </div>
+            <div class="accordion-body">
+                <div class="accordion ">
+                    <div class="faq-container">
+                        <div class="label">وهذا المعنى هو المراد?</div>
+                        <div class="content"> الأول كل ملفوظ مفهوم المعنى من الكتاب والسنة سواء كان ظاهرا أو نصا أو مفسرا حقيقة أو مجازا عاما أو خاصا اعتبارا منهم للغالب، لأن عامة ما ورد من صاحب الشرع نصوص، وهذا المعنى هو المراد بالنصوص في قولهم عبارة النص وإشارة النص ودلالة النص واقتضاء النص. فقوله من الكتاب والسنة بيان لقوله ملفوظ
+                        </div>
+                    </div>
+                        <div class="faq-container">
+                            <div class="label">وهذا المعنى هو المراد?</div>
+                            <div class="content"> الأول كل ملفوظ مفهوم المعنى من الكتاب والسنة سواء كان ظاهرا أو نصا أو مفسرا حقيقة أو مجازا عاما أو خاصا اعتبارا منهم للغالب، لأن عامة ما ورد من صاحب الشرع نصوص، وهذا المعنى هو المراد بالنصوص في قولهم عبارة النص وإشارة النص ودلالة النص واقتضاء النص. فقوله من الكتاب والسنة بيان لقوله ملفوظ
+                            </div>
+                        </div>
+                    <div class="faq-container">
+                        <div class="label">وهذا المعنى هو المراد?</div>
+                        <div class="content"> الأول كل ملفوظ مفهوم المعنى من الكتاب والسنة سواء كان ظاهرا أو نصا أو مفسرا حقيقة أو مجازا عاما أو خاصا اعتبارا منهم للغالب، لأن عامة ما ورد من صاحب الشرع نصوص، وهذا المعنى هو المراد بالنصوص في قولهم عبارة النص وإشارة النص ودلالة النص واقتضاء النص. فقوله من الكتاب والسنة بيان لقوله ملفوظ
+                        </div>
+                    </div>
+                    <div class="faq-container">
+                        <div class="label">وهذا المعنى هو المراد?</div>
+                        <div class="content"> الأول كل ملفوظ مفهوم المعنى من الكتاب والسنة سواء كان ظاهرا أو نصا أو مفسرا حقيقة أو مجازا عاما أو خاصا اعتبارا منهم للغالب، لأن عامة ما ورد من صاحب الشرع نصوص، وهذا المعنى هو المراد بالنصوص في قولهم عبارة النص وإشارة النص ودلالة النص واقتضاء النص. فقوله من الكتاب والسنة بيان لقوله ملفوظ
+                        </div>
+                    </div>
+
+                    <div class="faq-container">
+                        <div class="label">وهذا المعنى هو المراد?</div>
+                        <div class="content"> الأول كل ملفوظ مفهوم المعنى من الكتاب والسنة سواء كان ظاهرا أو نصا أو مفسرا حقيقة أو مجازا عاما أو خاصا اعتبارا منهم للغالب، لأن عامة ما ورد من صاحب الشرع نصوص، وهذا المعنى هو المراد بالنصوص في قولهم عبارة النص وإشارة النص ودلالة النص واقتضاء النص. فقوله من الكتاب والسنة بيان لقوله ملفوظ
+                        </div>
+                    </div>
+                    <div class="faq-container">
+                        <div class="label">وهذا المعنى هو المراد?</div>
+                        <div class="content"> الأول كل ملفوظ مفهوم المعنى من الكتاب والسنة سواء كان ظاهرا أو نصا أو مفسرا حقيقة أو مجازا عاما أو خاصا اعتبارا منهم للغالب، لأن عامة ما ورد من صاحب الشرع نصوص، وهذا المعنى هو المراد بالنصوص في قولهم عبارة النص وإشارة النص ودلالة النص واقتضاء النص. فقوله من الكتاب والسنة بيان لقوله ملفوظ
+                        </div>
+                    </div>
+                    <div class="faq-container">
+                        <div class="label">وهذا المعنى هو المراد?</div>
+                        <div class="content"> الأول كل ملفوظ مفهوم المعنى من الكتاب والسنة سواء كان ظاهرا أو نصا أو مفسرا حقيقة أو مجازا عاما أو خاصا اعتبارا منهم للغالب، لأن عامة ما ورد من صاحب الشرع نصوص، وهذا المعنى هو المراد بالنصوص في قولهم عبارة النص وإشارة النص ودلالة النص واقتضاء النص. فقوله من الكتاب والسنة بيان لقوله ملفوظ
+                            الأول كل ملفوظ مفهوم المعنى من الكتاب والسنة سواء كان ظاهرا أو نصا أو مفسرا حقيقة أو مجازا عاما أو خاصا اعتبارا منهم للغالب، لأن عامة ما ورد من صاحب الشرع نصوص، وهذا المعنى هو المراد بالنصوص في قولهم عبارة النص وإشارة النص ودلالة النص واقتضاء النص. فقوله من الكتاب والسنة بيان لقوله ملفوظ
+                 
+                        الأول كل ملفوظ مفهوم المعنى من الكتاب والسنة سواء كان ظاهرا أو نصا أو مفسرا حقيقة أو مجازا عاما أو خاصا اعتبارا منهم للغالب، لأن عامة ما ورد من صاحب الشرع نصوص، وهذا المعنى هو المراد بالنصوص في قولهم عبارة النص وإشارة النص ودلالة النص واقتضاء النص. فقوله من الكتاب والسنة بيان لقوله ملفوظ
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <svg id="footer-svg" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 130" version="1.1"
+        xmlns="http://www.w3.org/2000/svg">
+        <path style="transform:translate(0, 0px); opacity:1" fill="#fff"
+            d="M0,65L30,69.3C60,74,120,82,180,75.8C240,69,300,48,360,34.7C420,22,480,17,540,19.5C600,22,660,30,720,41.2C780,52,840,65,900,73.7C960,82,1020,87,1080,75.8C1140,65,1200,39,1260,23.8C1320,9,1380,4,1440,21.7C1500,39,1560,78,1620,95.3C1680,113,1740,108,1800,104C1860,100,1920,95,1980,84.5C2040,74,2100,56,2160,60.7C2220,65,2280,91,2340,86.7C2400,82,2460,48,2520,34.7C2580,22,2640,30,2700,34.7C2760,39,2820,39,2880,49.8C2940,61,3000,82,3060,84.5C3120,87,3180,69,3240,62.8C3300,56,3360,61,3420,67.2C3480,74,3540,82,3600,80.2C3660,78,3720,65,3780,60.7C3840,56,3900,61,3960,56.3C4020,52,4080,39,4140,41.2C4200,43,4260,61,4290,69.3L4320,78L4320,130L4290,130C4260,130,4200,130,4140,130C4080,130,4020,130,3960,130C3900,130,3840,130,3780,130C3720,130,3660,130,3600,130C3540,130,3480,130,3420,130C3360,130,3300,130,3240,130C3180,130,3120,130,3060,130C3000,130,2940,130,2880,130C2820,130,2760,130,2700,130C2640,130,2580,130,2520,130C2460,130,2400,130,2340,130C2280,130,2220,130,2160,130C2100,130,2040,130,1980,130C1920,130,1860,130,1800,130C1740,130,1680,130,1620,130C1560,130,1500,130,1440,130C1380,130,1320,130,1260,130C1200,130,1140,130,1080,130C1020,130,960,130,900,130C840,130,780,130,720,130C660,130,600,130,540,130C480,130,420,130,360,130C300,130,240,130,180,130C120,130,60,130,30,130L0,130Z">
+        </path>
+    </svg>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class=" col-lg-3 col-md-6 col-sm-12 ">
+                    <div class="footer-logo">
+                        <img src="asset/img/logo.png" alt="">
+                        <p> نص مبهم نص مبهم نص مبهم نص مبهم نص مبهم نص مبهم نص مبهم نص مبه نص مبهم نص مبهم نص مبهم نص
+                            مبه</p>
+                        <ul class="footer-social">
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-square-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-square-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <ul class="footer-links1">
+                        <li>
+                            <a href="">الرسم</a>
+                        </li>
+                        <li>
+                            <a href="">مونتاج</a>
+                        </li>
+                        <li>
+                            <a href="">ثري دي</a>
+                        </li>
+                        <li>
+                            <a href="">UI / UX </a>
+                        </li>
+                        <li>
+                            <a href="">سوشل ميديا</a>
+                        </li>
+                        <li>
+                            <a href="">موشن جرافيك</a>
+                        </li>
+                        <li>
+                            <a href=""> تصميم جرافيكي</a>
+                        </li>
+                        <li>
+                            <a href=""> المحتوى الإبداعي </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <ul class="footer-links1">
+                        <li>
+                            <a href=""> عن بي برو</a>
+                        </li>
+                        <li>
+                            <a href="">اتصل بنا </a>
+                        </li>
+                        <li>
+                            <a href="">الشروط والأحكام</a>
+                        </li>
+                        <li>
+                            <a href="">التحقق من الشهادة</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <ul class="footer-links1">
+                        <li>
+                            <a href="">الدورات</a>
+                        </li>
+                        <li>
+                            <a href="">الباقات</a>
+                        </li>
+                        <li>
+                            <a href="">العروض</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-app">
+                        <li>
+                            <a href="">
+                                <img src="asset/img/icon/google.png" class="app-img-size" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="asset/img/icon/apple.png" class="app-img-size" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class=" copy-right text-center"> copy right </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- js links -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"
+        integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
+ 
+    <script>
+        const faqSection2 = document.getElementsByClassName('faq-container');
+
+        for (i = 0; i < faqSection2.length; i++) {
+            faqSection2[i].addEventListener('click', function () {
+                this.classList.toggle('active')
+            })
+        }
+
+    </script>
+</body>
+
+</html>
